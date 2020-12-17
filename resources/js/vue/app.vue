@@ -1,7 +1,7 @@
 <template>
    <div class="todoListContainer">
        <div class="heading">
-           <h2 id="title">Eddie's Daily Todo List</h2>
+           <h2 id="title">Tinyiko's Daily Todo List</h2>
            <add-item-form 
             v-on:reloadlist="getList()"
             />
